@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+.dfn + strong {
+  color: #fff;
+}
+
+a > .no-highlight {
+  background-color: #719e07;
+}
