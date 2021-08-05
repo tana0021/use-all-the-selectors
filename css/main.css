@@ -34,34 +34,38 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn + strong {
+.dfn strong:nth-child(2) {
   color: #fff;
 }
 
-a > .no-highlight {
+nav ul li:nth-child(3) a, nav ul li:nth-child(4) a {
   background-color: #719e07;
 }
 
-ul:nth-child(3) .no-highlight {
+ul li:nth-child(1) a {
+  background-color: #719e07;
+}
+
+ul li:nth-child(3) a {
   background-color: #2694d8;
 }
 
-ol:nth-child(first), li {
-  background-color: #719e47;
+ol li:nth-child(1) {
+  color: #719e47;
 }
 
-ol:nth-child(last), li {
-  background-color: #2aa198;
+ol li:nth-child(3) {
+  color: #2aa198;
 }
 
-ol:nth-child(odd), li {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-ol:nth-child(even), li {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-ol:nth-child(third), li {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
